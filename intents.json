@@ -1,0 +1,104 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [ "Hi", "How are you", "Is anyone there?", "Hello", "Good day" ],
+            "responses": [ "Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?" ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [ "Bye", "See you later", "Goodbye" ],
+            "responses": [ "See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon." ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [ "Thanks", "Thank you", "That's helpful" ],
+            "responses": [ "Happy to help!", "Any time!", "My pleasure" ]
+        },
+        {
+            "tag": "hours",
+            "patterns": [ "What hours are you open?", "What are your hours?", "When are you open?", "When is the time to contact the admissions office?", "At what time can we visit the university?" ],
+            "responses": [ "We're open every day from 9AM to 7PM", "Our working hours are 9AM to 7PM every day" ]
+        },
+        {
+            "tag": "location",
+            "patterns": [ "What is your location?", "Where are you located?", "What is your address?", "Where is your university situated?"],
+            "responses": [ "We are on Kelambakkam, Vandalur Road.", "Our university is situated in Kelambakkam, Vandalur Road.", "We are at Kelambakkam, Vandalur Road.", "Our location is Kelambakkam, Vandalur Road"]
+        },
+        {
+            "tag": "payments",
+            "patterns": [ "Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?", "Which credit cards do you accept?", "Can we pay through the portal available on VTOP?", "Can we pay directly to the bank without going through the VTOP portal?"],
+            "responses": [ "We accept VISA, Mastercard and AMEX. We only accept payment through the VTOP portal!", "We accept most major credit cards. We only accept payment through the VTOP portal" ]
+        },
+        {
+            "tag": "courses",
+            "patterns": [ "What are the courses that you provide?", "Which courses do you provide?", "What does the university offer?", "What are the courses offered?" ],
+            "responses": [ "The institution offers 64 Undergraduate, 35 Postgraduate, 16 Integrated, 2 Research and 2 M.Tech Industrial Programmes." ]
+        },
+        {
+            "tag": "rooms",
+            "patterns": [ "What are the different types of rooms available in the hostel?", "Do we have to share rooms with other students in the hostel?", "What type of accomodation do you provide for the students?", "Is the university residential?" ],
+            "responses": [ "We provide accomodation to students opting for hostel. We have AC and non-AC rooms in groups of two, three, and four. Kindly contact the hostel office for further queries." ]
+        },
+        {
+            "tag": "mess",
+            "patterns": [ "What are the different mess options available?", "How is the mess at the university?" , "What do you offer in the mess at the university?"],
+            "responses": [ "Students can either opt for Veg Mess, Non-Veg Mess or Special Mess. Kindly contact the hostel office for further queries." ]
+        },
+        {
+            "tag": "FFCS",
+            "patterns": [ " What is FFCS?", "How does FFCS work?", "Explain FFCS?" ],
+            "responses": [ "FFCS is Fully Flexible Credit System. Students have complete freedom in tailoring their course and in a way they wish." ]
+        },
+        {
+            "tag": "blocks",
+            "patterns": [ "What are the different blocks in the university?", "Explain structure of academic buildings/block in the university?", "Where will the classes be held?", "How to go from one class to another?" ],
+            "responses": [ "Refer to your timetable for class venues. Classes will be held in the Academic Block 1 (AB1), Academic Block 2 (AB2), Delta Block (DB), Sigma Block (SB), Alpha Block (AB) for B.Tech and M. Tech Students. Classes for Law Students will be held in the Admin Block. Refer to this Map: https://vitfresher.blogspot.com/2020/09/vit-chennai-map.html" ]
+        },
+        {
+            "tag": "semester_start",
+            "patterns": [ "When will the classes start in the next semester?", "When will the next semester start?", "When does the next semester start?", "When will the upcoming semester begin?" ],
+            "responses": [ "Kindly refer to the 2021 - 2023 Fall Semester Academic Calendar. The tentative date for the beginning of the next semester is July 18. This is subject to change." ]
+        },
+        {    
+            "tag": "proctor",
+            "patterns": [ "Who is a proctor?", "Who is my proctor?", "How to contact my proctor?", "What does a proctor do?" ],
+            "responses": [ "Each student will be assigned a proctor who will guide them throughout their university experience. You are free to contact your proctor at any time.", "Your proctor's information will be provided in your Vtop profile.", "You can contact your proctor via email. You can find your  proctor's email on Vtop.","A proctor who will guide them throughout their university experience."]
+        },
+        {    
+            "tag": "library",
+            "patterns": [ "Where is the library located?", "What are the timings for library?", "What books can we found in the library?" ],
+            "responses": [ "The library is opposite to the admin block.", "The library is open from 8:00 AM to 12 Midnight on weekdays and from 8:00 AM to 6:30 PM in the weekends.","A proctor who will guide them throughout their university experience."]
+        },
+        {
+            "tag": "digital_library",
+            "patterns": ["Does the university have a digital library facility?"],
+            "responses": [ "We have a digital library facility. You can login through VIT Chennai website using your Vtop credentials."]
+        },
+        {    
+            "tag": "where",
+            "patterns": [ "Where is AB1?", "Where is AB2?", "Where is DB?", "Where is the Delta block?","Where is the Sigma block?","Where is North Square","Where is Clock Court?"],
+            "responses": [ "Refer to this Map: https://vitfresher.blogspot.com/2020/09/vit-chennai-map.html"]
+        },
+        {    
+            "tag": "how_to_go",
+            "patterns": [ "How to go to AB1?", "How to go to AB2?", "How to go to DB?", "How to go to the Delta block?","How to go to the Sigma block?","How to go to the North Square","How to go to the Clock Court?"],
+            "responses": [ "Refer to this Map: https://vitfresher.blogspot.com/2020/09/vit-chennai-map.html"]
+        },
+        {
+            "tag": "hostel_accomodation",
+            "patterns": ["Does VIT have a hostel facility?", "Does the college have a hostel facility?", "Does the college provide accomodation to stduents?", "How is the hostel at VIT?"],
+            "responses": ["VIT provides high standard hostel facility for all the students."]
+        },
+        {
+            "tag":"food_court",
+            "patterns": ["What is the food court at VIT?","Where is the food court at VIT?","Is the food at the food court in VIT good?"],
+            "responses": ["VIT has different eatouts that provide a variety of food inside the campus - Gymkhana, Gazebo, Chai Gali, North Square, Lassi House. They are open during college timings. Refer to this Map to locate them: https://vitfresher.blogspot.com/2020/09/vit-chennai-map.html"]
+        },
+        {
+            "tag":"syllabus",
+            "patterns": ["What is the syllabus for my course?","Where to find the syllabus for the course?","What is the syllabus?"],
+            "responses": ["Find the syllabus for your programme on Vtop."]
+        }
+     ]
+}
